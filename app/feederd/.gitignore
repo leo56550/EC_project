@@ -1,0 +1,4 @@
+feederd
+*.o
+feederd.state
+feederd.state.tmp
