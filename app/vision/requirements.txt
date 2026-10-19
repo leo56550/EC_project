@@ -1,0 +1,6 @@
+# Environnement de développement sur PC.
+# Sur le Pi, seuls OpenCV et NumPy sont nécessaires (fournis par Buildroot).
+# Installer torch et torchvision en version CPU d'abord (voir README), sinon pip télécharge CUDA (plusieurs Go).
+opencv-python==4.12.0.88   # même version que celle de Buildroot 2025.02
+numpy
+ultralytics                # uniquement pour export_model.sh
